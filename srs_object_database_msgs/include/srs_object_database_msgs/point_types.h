@@ -17,7 +17,7 @@ using namespace pcl;
 struct PointSURF;
 
 
-#include "srs_object_database/impl/point_types.cpp"
+#include "srs_object_database_msgs/impl/point_types.cpp"
 
 //Point obtained from Swissranger devices, confidence only used for SR2
 POINT_CLOUD_REGISTER_POINT_STRUCT(

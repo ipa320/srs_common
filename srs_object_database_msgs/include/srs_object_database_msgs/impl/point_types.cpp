@@ -4,7 +4,7 @@
  *  Created on: 26.08.2010
  *      Author: goa
  */
-#include "srs_object_database/point_types.h"
+#include "srs_object_database_msgs/point_types.h"
 
 #ifndef SRS_POINT_TYPES_HPP_
 #define SRS_POINT_TYPES_HPP_

@@ -9,6 +9,7 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/srs_object_database_msgs</url>
 
+  <depend package="pcl"/>
   <depend package="visualization_msgs"/>
   <depend package="sensor_msgs"/>
   <depend package="arm_navigation_msgs"/>
