@@ -1,7 +1,7 @@
 <stack>
   <description brief="srs_common">srs_common</description>
-  <author>Maintained by fmw</author>
-  <license>BSD</license>  
+  <author>Maintained by Georg Arbeiter</author>
+  <license>LGPL</license>  
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/srs_common</url>
   <depend stack="ros" />

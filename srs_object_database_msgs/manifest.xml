@@ -4,8 +4,8 @@
      srs_object_database_msgs
 
   </description>
-  <author>fmw</author>
-  <license>BSD</license>
+  <author>Georg Arbeiter</author>
+  <license>LGPL</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/srs_object_database_msgs</url>
 
