@@ -4,6 +4,8 @@
   <license>LGPL</license>  
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/srs_common</url>
+  <depend stack="arm_navigation" /> <!-- arm_navigation_msgs -->
+  <depend stack="common_msgs" /> <!-- sensor_msgs, visualization_msgs -->
   <depend stack="ros" />
   <depend stack="ros_comm" />
 
