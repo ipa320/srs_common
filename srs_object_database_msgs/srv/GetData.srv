@@ -22,9 +22,9 @@ bool urdf
 # the outcome of the end service
 string return_response
 
-srs_object_database/img[] img
-srs_object_database/mesh[] mesh
-srs_object_database/pcl[] pcl
-srs_object_database/surf[] surf
-srs_object_database/grasp[] grasp
-srs_object_database/urdf[] urdf
+srs_object_database_msgs/img[] img
+srs_object_database_msgs/mesh[] mesh
+srs_object_database_msgs/pcl[] pcl
+srs_object_database_msgs/surf[] surf
+srs_object_database_msgs/grasp[] grasp
+srs_object_database_msgs/urdf[] urdf

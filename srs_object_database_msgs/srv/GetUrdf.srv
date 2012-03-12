@@ -9,4 +9,4 @@ int32[] model_ids
 # the outcome of the end service
 string return_response
 
-srs_object_database/urdf[] urdf
+srs_object_database_msgs/urdf[] urdf

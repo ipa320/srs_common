@@ -11,5 +11,5 @@ string type
 
 # the outcome of the end service
 string return_response
-srs_object_database/img[] msg
+srs_object_database_msgs/img[] msg
 
