@@ -1,0 +1,40 @@
+# retrieves the object id for a class of items
+
+
+# type of search. use item if want to search on item description such as glass
+#				  use id if want to search data about a specific object and you know its id
+string type
+# the search key, could be an object description such as glass or an id i.e. 10000
+string item
+
+---
+
+# after invoking the service it will return the outcome of the request, Successful
+string return_response
+
+# the returned item/items list
+int32[] model_ids
+
+# the returned item/items description
+string[] model_desc
+
+# the returned item/items version
+string[] version
+
+# the returned item/items category, can be scanner, shape
+string[] model_category
+
+# the returned item/items is graspable or not
+bool[] graspable
+
+# the returned item x size
+float32[] model_x_size
+
+# the returned item y size
+float32[] model_y_size
+
+# the returned item z size
+float32[] model_z_size
+
+# the returned item basic shape type
+string[] model_basic_shape

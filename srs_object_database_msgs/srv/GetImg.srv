@@ -1,0 +1,15 @@
+# retrieves the object id for a class of items
+
+# is/ids of objects of which we will retrieve information
+
+int32[] model_ids
+# apply a filter on the search to get only a subset of image
+# all or icon or top-view
+string type
+
+---
+
+# the outcome of the end service
+string return_response
+srs_object_database/img[] msg
+

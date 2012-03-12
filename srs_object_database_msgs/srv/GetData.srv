@@ -1,0 +1,30 @@
+# retrieves the object id for a class of items
+
+# is/ids of objects of which we will retrieve information
+# if description is provided instead of description the service will first try to
+# retrieve a list of object from the description
+
+int32[] model_ids
+string description
+
+# information to be published
+
+bool mesh
+bool pcl
+bool surf
+bool image
+bool grasp
+bool urdf
+ 
+
+---
+
+# the outcome of the end service
+string return_response
+
+srs_object_database/img[] img
+srs_object_database/mesh[] mesh
+srs_object_database/pcl[] pcl
+srs_object_database/surf[] surf
+srs_object_database/grasp[] grasp
+srs_object_database/urdf[] urdf

@@ -1,0 +1,12 @@
+# retrieves the object id for a class of items
+
+# is/ids of objects of which we will retrieve information
+
+int32[] model_ids
+
+---
+
+# the outcome of the end service
+string return_response
+
+srs_object_database/urdf[] urdf

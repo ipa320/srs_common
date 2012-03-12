@@ -1,0 +1,4 @@
+int32 objectId
+sensor_msgs/PointCloud2 surf
+sensor_msgs/PointCloud2 bounding_box
+geometry_msgs/Pose coord_frame

@@ -1,0 +1,52 @@
+# specify purpose of data
+# insert   create a new object
+# update   update replacing old data or adding missing data
+
+string function
+
+# the model id in case of update
+int32 model_id
+
+# the model name
+string model_name
+
+# the model description
+string model_desc
+
+# the returned item/items category, can be scanner, shape
+string model_category
+
+# the returned item x size
+float32 model_x_size
+
+# the returned item y size
+float32 model_y_size
+
+# the returned item z size
+float32 model_z_size
+
+# the returned item basic shape type
+string model_basic_shape
+
+#graspable boolean 1 is graspable 0 not
+bool graspable
+
+# data inserted
+
+uint8[] pcl
+uint8[] fpt
+sensor_msgs/Image img
+string image_type
+uint8[] data_grasp
+#mesh data and type extension ex dae, iv.txt
+uint8[] data_mesh
+string meshType
+uint8[] urdf
+
+---
+
+# is/ids of objects of which we will retrieve information
+string return_response
+
+int32 model_id
+
